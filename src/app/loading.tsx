@@ -8,7 +8,7 @@ interface loadingProps {}
 
 const loading: FC<loadingProps> = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
+    <div className="flex h-[100dvh] w-screen items-center justify-center">
       <Transition.Root show as={Fragment}>
         <Dialog as="div" className={"relative z-[100]"} onClose={() => {}}>
           <Transition.Child

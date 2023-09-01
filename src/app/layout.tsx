@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={font.className + "h-screen"}>
+      <body className={font.className + "h-[100dvh]"}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <QueryProvider>
             <div className="flex h-screen items-center justify-center">
