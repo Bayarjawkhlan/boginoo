@@ -23,7 +23,7 @@ const Links: FC<LinksProps> = () => {
         </Description>
       </header>
       {links.length === 0 ? (
-        <div className="flex w-full grow items-center justify-center rounded-xl border bg-gray-50 dark:bg-gray-800">
+        <div className="flex min-h-[180px] w-full grow items-center justify-center rounded-xl border bg-gray-50 dark:bg-gray-800">
           Your storage is empty
         </div>
       ) : (
