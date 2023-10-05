@@ -12,8 +12,9 @@ datasource db {
 }
 
 model Link {
-  id          String @id @default(auto()) @map("_id") @db.ObjectId
-  shortLink   String
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  shortLink String
+
   orignalLink String
 
   createdAt DateTime @default(now())
