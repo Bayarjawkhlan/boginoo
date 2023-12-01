@@ -9,8 +9,8 @@ import { Toaster } from "@/components/ui/Toaster";
 const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Url shortener",
-  description: "Url shortener",
+  title: "Boginoo",
+  description: "Bayarjavkhlan's private Url shortener",
 };
 
 export default function RootLayout({
